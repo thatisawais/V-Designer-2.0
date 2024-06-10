@@ -1,0 +1,65 @@
+/* login page styles */
+
+
+
+.login-container {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  background-image: url('./assets/Login.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-color: white;
+}
+
+.login-form{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #050505;
+}
+
+.login-container p {
+  text-align: center;
+  margin: 15px 0 0 0;
+  color: #050505;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.login-container input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: red;
+}
+
+.signup-link {
+  color: #476C9B;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.signup-link:hover {
+  text-decoration: none;
+}

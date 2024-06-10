@@ -1,0 +1,116 @@
+.upload-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0f0f0;
+}
+
+.upload-container1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0f0f0;
+}
+
+.generated-images-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.generated-image-wrapper {
+    position: relative;
+    margin-right: 10px;
+}
+
+.generated-image-wrapper img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.zoomed-image-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.zoomed-image-container img {
+    width: 500px;
+    height: 500px;
+}
+
+.close-icon {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    right: -20px; /* Adjust right position as needed */
+    width: 100px; /* Adjust size as needed */
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Typography */
+.upload-container1 p {
+    color: #333;
+}
+
+
+/* Error messages */
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Logo */
+.logo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0f0f0;
+    background-color: #476C9B;
+    padding: 10px 20px; /* Adjust padding as needed */
+    width: 100%;
+}
+
+/* Select number of samples container */
+.select-num-samples {
+    margin-top: 20px;
+}
+
+/* Select label */
+.select-num-samples label {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333; /* Adjust color as needed */
+}
+
+/* Select dropdown */
+.select-num-samples select {
+    padding: 5px 10px;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px;
+    background-color: #fff; /* Background color */
+    color: #333; /* Text color */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Select dropdown option */
+.select-num-samples select option {
+    background-color: #fff; /* Background color */
+    color: #333; /* Text color */
+}
+
+/* Adjustments for the button */
+.button {
+    margin-top: 10px; /* Adjust margin top as needed */
+}

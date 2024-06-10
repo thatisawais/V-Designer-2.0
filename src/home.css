@@ -1,0 +1,121 @@
+/* Home.css */
+
+/* Style for the home box */
+.home-box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+/* Style for the header */
+.home-header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home-header h1 {
+    margin: 0;
+    color: #050505;
+}
+
+
+
+.home-header input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 10px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the main content */
+.home-main {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+/* Style for section headings */
+.home-section h2 {
+    margin-top: 10px;
+    color: #050505;
+}
+
+/* Style for pattern sections */
+.home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Style for individual patterns */
+.home-pattern {
+    padding : 5px;
+    margin-bottom : 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto; /* Prevent items from growing or shrinking */
+    width: 200px; /* Fixed width for each item */
+    text-align: center;
+}
+
+
+.featured-post {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #476C9B;
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Padding inside the container */
+    white-space: nowrap;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.featured-post::-webkit-scrollbar {
+    display: none;
+}
+
+.home-pattern img {
+    max-width: 150px; /* Ensure the image fits within the container */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    aspect-ratio: 1/1; /* Maintain aspect ratio */
+}
+
+.home-button {
+    gap: 20px;
+    display: flex;
+}
